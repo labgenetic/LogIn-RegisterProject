@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="../dist/output.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home ,the place where I can go</title>
-</head>
+<%-include("./partials/head")-%>
 <body>
     <%- include('partials/Header/HeaderIncognito'); %>
-    <button class="font-sans text-green-900 border-2 hover:bg-green-500 hover:text-white" >Login</button>
-    <button class="font-sans text-green-900 border-2 hover:bg-green-500 hover:text-white">Register</button>
+    <a href="/Login" class="font-sans text-green-900 border-2 hover:bg-green-500 hover:text-white" >Login</a>
+    <a href="/register" class="font-sans text-green-900 border-2 hover:bg-green-500 hover:text-white">Register</a>
 
 </body>
 </html>
